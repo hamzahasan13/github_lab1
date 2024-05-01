@@ -1,23 +1,23 @@
-def func1(x, y):
+def fun1(x, y):
     return (x+y)
 
-def func2(x,y):
+def fun2(x,y):
     return (x-y)
 
-def func3(x,y):
+def fun3(x,y):
     return (x*y)
 
-def func4(x,y):
+def fun4(x,y,z):
     
-    result_func4 = func1(x,y) + func2(x,y) + func3(x,y)
+    result_fun4 = x+y+z
     
-    return result_func4
+    return result_fun4
 
 if __name__ == "__main__":
     x = 5
     y = 3;
     
-    print("func1:", func1(x, y))
-    print("func2:", func2(x, y))
-    print("func3:", func3(x, y))
-    print("func4:", func4(x, y))
+    print("fun1:", fun1(x, y))
+    print("fun2:", fun2(x, y))
+    print("fun3:", fun3(x, y))
+    print("fun4:", fun4(x, y))
